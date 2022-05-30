@@ -31,11 +31,12 @@ header{
 #menu li {
 	padding-right:90px;
 	padding-left :90px;
-	transition:font-size 1s;
+	transition:all ease-out 0.3s;
 
 
 }
 #menu li:hover {
+	transform:scale(1.05);
 	font-size:1.3em;
 }
 /*-----------BODY-------------*/
